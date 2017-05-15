@@ -11,16 +11,16 @@ var app = function(){
     var name = document.createElement("li");
     name.innerText = "babby";
 
-    // var favouriteFood = document.createElement("li");
-    // favouriteFood.innerText = "fluff";
+    var favouriteFood = document.createElement("li");
+    favouriteFood.innerText = "fluff";
 
-    //  var img = document.createElement("li");
-    //  img.innerHTML = "<img src = http://66.media.tumblr.com/d1f01bbe0150fda0c40d2151c5eaeac8/tumblr_odlqqskjj61v9cejwo1_400.jpg>";
-    //  favouriteFood.appendChild(img);
-    //   name.appendChild(favouriteFood);
-    //   unOrderedList.appendChild(name);
-    //  var cats = document.querySelector('#cats');
-    //  cats.appendChild(unOrderedList);
+     var img = document.createElement("li");
+     img.innerHTML = "<img src = http://66.media.tumblr.com/d1f01bbe0150fda0c40d2151c5eaeac8/tumblr_odlqqskjj61v9cejwo1_400.jpg>";
+     favouriteFood.appendChild(img);
+      name.appendChild(favouriteFood);
+      unOrderedList.appendChild(name);
+     var cats = document.querySelector('#cats');
+     cats.appendChild(unOrderedList);
 };
 window.onload = app;
 
