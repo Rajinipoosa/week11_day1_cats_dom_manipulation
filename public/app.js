@@ -8,8 +8,8 @@ var app = function(){
      unOrderedList.classList.add("cat");
 
 
-    // var name = document.createElement("li");
-    // name.innerText = "babby";
+    var name = document.createElement("li");
+    name.innerText = "babby";
 
     // var favouriteFood = document.createElement("li");
     // favouriteFood.innerText = "fluff";
